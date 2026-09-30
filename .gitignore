@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environment/config with credentials
+environment.yaml
+.env
+
+# Source Excel files
+*.xlsx
+*.xls
+
+# Generated outputs
+output/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+pac_name_mapping.yaml

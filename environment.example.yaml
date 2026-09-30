@@ -1,0 +1,23 @@
+database:
+  host: localhost
+  port: 5432
+  name: your_database_name
+  user: your_database_user
+  password_env: DIC_DB_PASSWORD
+  schema: amir
+
+source:
+  workbook: "your_attachment_9_workbook.xlsx"
+
+output:
+  directory: output
+
+mapping:
+  metadata: pac_name_mapping.yaml
+
+tables:
+  cess_combined: abd_cess_combined_stg
+  masterplan_combined: abd_masterplan_combined_stg
+  decom_summary: abd_decom_summary_stg
+  decom_facility: abd_decom_facility_stg
+  decom_combined: abd_decom_combined_stg

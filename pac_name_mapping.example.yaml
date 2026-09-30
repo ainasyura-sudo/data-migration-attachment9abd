@@ -1,0 +1,13 @@
+# Example PSC metadata mapping.
+# Replace these placeholder values using a verified source.
+
+workbooks:
+  "your_attachment_9_workbook.xlsx":
+    psc_name: Example PSC
+    psc_contractor: Example Contractor
+    psc_focal_point: Example Focal Point
+    region_psc: XX
+    psc_expiry: 2030
+    awpb_year: 2026
+
+pac_name_aliases: {}
